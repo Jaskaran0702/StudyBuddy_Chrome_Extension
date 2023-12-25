@@ -1,100 +1,69 @@
-<!-- <!DOCTYPE html>
-    <head>
-        <style>
-            
-            #inputTitle, input {
-                display: inline-block;
-            }
-
-            #enabledUrls, #clearButton {
-                display: block;
-            }
-
-            #urlInput {
-                width: 205px;
-            }
-
-        </style>
-    </head>
-    <body>
-        <div id="inputHolder">
-            <p id="inputTitle">Add URL:</p>
-            <input id="urlInput" type="url" placeholder="host name only (ex: 'discord.com')"></input>
-            <button id="addUrlButton">Add URL</button>
-            <button id="deleteUrlButton">Delete URL</button>
-        </div>
-        <button id="clearButton">Clear All URLs</button>
-        <div id="enabledUrls"></div>
-    </body>
-    <script src="../src/options.js"></script>
-
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <style>
-        body {
-            padding: 20px;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+      body {
+        padding: 20px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
 
-        #inputHolder {
-            margin-bottom: 15px;
-            text-align: center;
-        }
+      #inputHolder {
+        margin-bottom: 15px;
+        text-align: center;
+      }
 
-        #inputTitle,
-        input {
-            margin-right: 10px;
-            font-size: 16px;
-            padding: 8px;
-            border: 1px solid #ddd; /* Light gray border */
-            border-radius: 4px;
-        }
+      #inputTitle,
+      input {
+        margin-right: 10px;
+        font-size: 16px;
+        padding: 8px;
+        border: 1px solid #ddd; /* Light gray border */
+        border-radius: 4px;
+      }
 
-        .button {
-            padding: 10px;
-            background-color: #3498db; /* Blue button */
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+      .button {
+        padding: 10px;
+        background-color: #3498db; /* Blue button */
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
 
-        .button:hover {
-            background-color: #2980b9; /* Darker blue on hover */
-        }
+      .button:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+      }
 
-        #enabledUrls {
-            margin-top: 20px;
-            text-align: center;
-        }
+      #enabledUrls {
+        margin-top: 20px;
+        text-align: center;
+      }
 
-        .urlItem {
-            margin-bottom: 5px;
-            color: #2c3e50; /* Dark gray text color */
-            font-size: 16px;
-        }
+      .urlItem {
+        margin-bottom: 5px;
+        color: #2c3e50; /* Dark gray text color */
+        font-size: 16px;
+      }
     </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Options</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="inputHolder">
-        <p id="inputTitle">Add URL:</p>
-        <input id="urlInput" type="url" placeholder="Enter host name (e.g., 'discord.com')" />
-        <button id="addUrlButton" class="button">Add URL</button>
-        <button id="deleteUrlButton" class="button">Delete URL</button>
+      <p id="inputTitle">Add URL:</p>
+      <input
+        id="urlInput"
+        type="url"
+        placeholder="Enter host name (e.g., 'discord.com')"
+      />
+      <button id="addUrlButton" class="button">Add URL</button>
+      <button id="deleteUrlButton" class="button">Delete URL</button>
     </div>
     <button id="clearButton" class="button">Clear All URLs</button>
     <div id="enabledUrls"></div>
     <script src="../src/options.js"></script>
-</body>
-
+  </body>
 </html>
-

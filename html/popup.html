@@ -1,102 +1,66 @@
-<!-- <!DOCTYPE html>
-    <head>
-        <style>
-            body {
-                width: 300px;
-                background-color: yellow;
-            }
-
-            button, p {
-                display: inline-block;
-            }
-            
-            div {
-                text-align: center;
-            }
-
-            p {
-                margin-left: 20px;
-                font-weight: bold;
-            }
-        </style>
-    </head>
-    <body>
-        <div>
-            <button id="toggleButton">Toggle</button>
-            <p id="modeLabel">Study Mode: TEMP</p>
-        </div>
-        <div>
-            <a href="/html/options.html" target="_blank">Options</a>
-        </div>
-    </body>
-    <script src="../src/toggle.js"></script>
-</html>
- -->
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <style>
-        body {
-            width: 300px;
-            background-color: #f5f5f5; /* Light gray background */
-            padding: 15px;
-            text-align: center;
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        }
+      body {
+        width: 300px;
+        background-color: #f5f5f5; /* Light gray background */
+        padding: 15px;
+        text-align: center;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
 
-        .popup-container {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            gap: 20px;
-        }
+      .popup-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        /* border-radius: 4px; */
+      }
 
-        #toggleButton {
-            padding: 12px;
-            background-color: #3498db; /* Blue button */
-            color: white;
-            border: none;
-            border-radius: 4px;
-            cursor: pointer;
-            font-size: 16px;
-        }
+      #toggleButton {
+        padding: 12px;
+        background-color: #3498db; /* Blue button */
+        color: white;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+      }
 
-        #toggleButton:hover {
-            background-color: #2980b9; /* Darker blue on hover */
-        }
+      #toggleButton:hover {
+        background-color: #2980b9; /* Darker blue on hover */
+      }
 
-        #modeLabel {
-            font-weight: bold;
-            color: #333; /* Dark gray text color */
-            font-size: 14px;
-        }
+      #modeLabel {
+        font-weight: bold;
+        color: #333; /* Dark gray text color */
+        font-size: 14px;
+      }
 
-        .options-link {
-            color: #3498db; /* Blue link color */
-            text-decoration: none;
-            font-size: 14px;
-        }
+      .options-link {
+        color: #3498db; /* Blue link color */
+        text-decoration: none;
+        font-size: 14px;
+      }
 
-        .options-link:hover {
-            text-decoration: underline;
-        }
+      .options-link:hover {
+        text-decoration: underline;
+      }
     </style>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>StudyHelper</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="popup-container">
-        <button id="toggleButton">Toggle Study Mode</button>
-        <p id="modeLabel">Study Mode: TEMP</p>
-        <a href="/html/options.html" target="_blank" class="options-link">Go to Options</a>
+      <button id="toggleButton">Toggle Study Mode</button>
+      <p id="modeLabel">Study Mode: TEMP</p>
+      <a href="/html/options.html" target="_blank" class="options-link"
+        >Go to Options</a
+      >
     </div>
     <script src="../src/toggle.js"></script>
-</body>
-
+  </body>
 </html>
-
- 
- 
