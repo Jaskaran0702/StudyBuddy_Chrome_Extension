@@ -27,13 +27,13 @@ Open Chrome and navigate to chrome://extensions/.
 Enable "Developer mode" at the top-right.
 Click "Load unpacked" and select the cloned repository folder.
 
-**## Usage**
+## Usage
 Click on the Study Helper icon in the Chrome toolbar.
 Toggle study mode on/off by clicking the "Toggle Study Mode" button.
 Add or remove websites from the block list using the Options page.
 Use the Snooze option to temporarily disable study mode.
 
-**## Configuration**
+## Configuration
 Options Page
 The Options page allows you to customize your study experience.
 
@@ -41,10 +41,10 @@ Add URL: Enter the host name (e.g., 'example.com') and click "Add URL."
 Delete URL: Enter the host name and click "Delete URL" to remove it from the block list.
 Clear All URLs: Click "Clear All URLs" to remove all URLs from the block list.
 
-**## Contributing**
+## Contributing
 Contributions are welcome! Follow these steps to contribute:
 
-**## Fork the repository.**
+## Fork the repository.
 Create a new branch: git checkout -b feature/new-feature.
 Make your changes and commit them: git commit -m 'Add new feature'.
 Push to the branch: git push origin feature/new-feature.
