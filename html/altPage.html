@@ -1,56 +1,75 @@
 <!DOCTYPE html>
-    <head>
-        <style>
-            body {
-                background-color: green;
-            }
+<html lang="en">
 
-            h1 {
-                color: blue;
-                text-align: center;
-                font-size: 5em;
-            }
+<head>
+    <style>
+        body {
+            background-color: #3498db; /* Blue background */
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            color: #fff; /* White text color */
+            padding: 20px;
+            box-sizing: border-box;
+        }
 
-            p {
-                text-align: center;
-                font-size: 2em;
-            }
+        .spaced {
+            margin-top: 20px;
+        }
 
-            img {
-                width: 350px;
-                height: 300px;
-                margin-left: auto;
-                margin-right: auto;
-                display: block;
-            }
+        h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
 
-            .spaced {
-                margin-top: 100px;
-            }
+        p {
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
 
-            #minutesInput {
-                width: 50px;
-            }
+        #minutesInput {
+            width: 50px;
+            padding: 8px;
+            font-size: 14px;
+        }
 
-            button {
-                display: block;
-                margin: auto;
-            }
-        </style>
-    </head>
-    <body>
-        <h1 class="spaced">
-            You're In Study Mode!
-        </h1>
-        <p class="spaced">
-            You've marked this site as blockable while in study mode.<br/>
-            Turn off study mode first to access this site.
-        </p>
-        <div class="spaced" id="snoozeContainer">
-            <p id="snoozeLabel">Snooze for <input id="minutesInput" type="number" value="0"/> Minutes</p>
-            <button id="snooze">Snooze!</button>
-        </div>
-        <img class="spaced" src="/assets/yougotthis.gif"/>
-    </body>
+        #snooze {
+            padding: 12px;
+            background-color: #e74c3c; /* Red button */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        #snooze:hover {
+            background-color: #c0392b; /* Darker red on hover */
+        }
+
+        img {
+            width: 100%;
+            max-width: 300px;
+            height: auto;
+            margin-top: 20px;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Study Mode</title>
+</head>
+
+<body>
+    <h1 class="spaced">Welcome to Study Mode!</h1>
+    <p class="spaced">
+        This site is currently blocked while in study mode.<br />
+        Please turn off study mode to access this site.
+    </p>
+    <div class="spaced" id="snoozeContainer">
+        <p id="snoozeLabel">Snooze for <input id="minutesInput" type="number" value="0" /> Minutes</p>
+        <button id="snooze">Snooze!</button>
+    </div>
+    <img src="/assets/yougotthis.gif" alt="You got this!" class="spaced">
     <script src="../src/altPage.js"></script>
+</body>
+
 </html>
