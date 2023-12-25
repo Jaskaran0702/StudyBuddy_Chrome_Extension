@@ -27,7 +27,7 @@ Open Chrome and navigate to chrome://extensions/.
 Enable "Developer mode" at the top-right.
 Click "Load unpacked" and select the cloned repository folder.
 
-##usage
+#usage
 Click on the Study Helper icon in the Chrome toolbar.
 Toggle study mode on/off by clicking the "Toggle Study Mode" button.
 Add or remove websites from the block list using the Options page.
